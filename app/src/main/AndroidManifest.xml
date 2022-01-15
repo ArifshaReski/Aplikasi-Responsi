@@ -10,28 +10,28 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Paymu">
         <activity
-            android:name=".ProfileActivity"
+            android:name=".Activity.ProfileActivity"
             android:exported="true" />
         <activity
-            android:name=".PaymentActivity"
+            android:name=".Activity.PaymentActivity"
             android:exported="true" />
         <activity
-            android:name=".PaymentActivity"
+            android:name=".Activity.PaymentActivity"
             android:exported="true" />
         <activity
-            android:name=".ActivityHome"
+            android:name=".Activity.ActivityHome"
             android:exported="true" />
         <activity
-            android:name=".ActivityRegistrasi"
+            android:name=".Activity.ActivityRegistrasi"
             android:exported="true" />
         <activity
-            android:name=".ActivityRecovery"
+            android:name=".Activity.ActivityRecovery"
             android:exported="true" />
         <activity
-            android:name=".ActivityLogin"
+            android:name=".Activity.ActivityLogin"
             android:exported="true" />
         <activity
-            android:name=".MainActivity"
+            android:name=".Activity.Splashscreen"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

@@ -1,4 +1,4 @@
-package com.paymu.app;
+package com.paymu.app.Activity;
 
 import static android.content.ContentValues.TAG;
 import androidx.annotation.NonNull;
@@ -12,6 +12,11 @@ import android.view.MenuItem;
 
 import com.google.android.material.bottomnavigation.BottomNavigationView;
 import com.google.android.material.navigation.NavigationBarView;
+import com.paymu.app.Fragmen.FragmentHistory;
+import com.paymu.app.Fragmen.FragmentHome;
+import com.paymu.app.Fragmen.FragmentPayment;
+import com.paymu.app.Fragmen.FragmentSetting;
+import com.paymu.app.R;
 
 public class ActivityHome extends AppCompatActivity {
 
