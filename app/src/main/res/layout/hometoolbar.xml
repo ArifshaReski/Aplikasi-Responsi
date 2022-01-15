@@ -15,23 +15,35 @@
             android:layout_height="wrap_content"
             android:layout_margin="15dp"
             android:layout_marginStart="16dp"
-            android:text="Bayar Dulu"
-            android:textColor="@color/black"
-            android:textSize="25sp"
+            android:fontFamily="@font/poppins_regular"
+            android:text="Paymu App"
+            android:textColor="@color/white"
+            android:textSize="20sp"
             android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/profile"
+            android:layout_width="38dp"
+            android:layout_height="41dp"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="67dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="70dp"
+            android:src="@drawable/akun" />
+
 
         <TextView
             android:id="@+id/tvname"
-            android:layout_width="wrap_content"
+            android:layout_width="84dp"
             android:layout_height="wrap_content"
-            android:layout_alignParentEnd="true"
-            android:layout_marginStart="50dp"
-            android:layout_marginTop="20dp"
-            android:layout_marginEnd="111dp"
-            android:drawableTop="@drawable/ic_baseline_account_circle_24"
+            android:layout_marginStart="140dp"
+            android:layout_marginTop="45dp"
+            android:layout_toLeftOf="@id/profile"
+            android:layout_toEndOf="@+id/title"
             android:text=""
-            android:textColor="@color/black"
-            android:textStyle="bold" />
+            android:textColor="@color/white"
+            android:textSize="10sp"
+            android:textStyle="normal" />
 
         <androidx.appcompat.widget.Toolbar
             android:id="@+id/toolbar2"

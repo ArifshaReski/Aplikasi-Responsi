@@ -30,4 +30,5 @@
         app:itemTextColor="@color/white"
         app:labelVisibilityMode="labeled"
         app:menu="@menu/bottomnav" />
+
 </RelativeLayout>

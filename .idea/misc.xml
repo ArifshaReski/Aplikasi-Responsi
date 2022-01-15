@@ -4,7 +4,9 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/Users/HP/AndroidStudioProjects/Paymu/app/src/main/res/drawable-v24/activity_ic_launcher_foreground.xml" value="0.2368659420289855" />
+        <entry key="..\:/Users/HP/AndroidStudioProjects/Paymu/app/src/main/res/drawable-v24/bgedittext.xml" value="0.2703125" />
         <entry key="..\:/Users/HP/AndroidStudioProjects/Paymu/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.2703125" />
+        <entry key="..\:/Users/HP/AndroidStudioProjects/Paymu/app/src/main/res/drawable/akun.xml" value="0.2703125" />
         <entry key="..\:/Users/HP/AndroidStudioProjects/Paymu/app/src/main/res/drawable/edittextbg.xml" value="0.2703125" />
         <entry key="..\:/Users/HP/AndroidStudioProjects/Paymu/app/src/main/res/drawable/ic_baseline_arrow_back_24.xml" value="0.2703125" />
         <entry key="..\:/Users/HP/AndroidStudioProjects/Paymu/app/src/main/res/drawable/ic_baseline_history_24.xml" value="0.2703125" />
@@ -15,18 +17,21 @@
         <entry key="..\:/Users/HP/AndroidStudioProjects/Paymu/app/src/main/res/layout/activity_home.xml" value="0.2" />
         <entry key="..\:/Users/HP/AndroidStudioProjects/Paymu/app/src/main/res/layout/activity_login.xml" value="0.1" />
         <entry key="..\:/Users/HP/AndroidStudioProjects/Paymu/app/src/main/res/layout/activity_main.xml" value="0.264" />
+        <entry key="..\:/Users/HP/AndroidStudioProjects/Paymu/app/src/main/res/layout/activity_payment.xml" value="0.1" />
+        <entry key="..\:/Users/HP/AndroidStudioProjects/Paymu/app/src/main/res/layout/activity_profile.xml" value="0.1" />
         <entry key="..\:/Users/HP/AndroidStudioProjects/Paymu/app/src/main/res/layout/activity_recovery.xml" value="0.24010416666666667" />
         <entry key="..\:/Users/HP/AndroidStudioProjects/Paymu/app/src/main/res/layout/activity_registrasi.xml" value="0.1" />
         <entry key="..\:/Users/HP/AndroidStudioProjects/Paymu/app/src/main/res/layout/bgedittext.xml" value="0.24592391304347827" />
         <entry key="..\:/Users/HP/AndroidStudioProjects/Paymu/app/src/main/res/layout/fragment_history.xml" value="0.1" />
-        <entry key="..\:/Users/HP/AndroidStudioProjects/Paymu/app/src/main/res/layout/fragment_home.xml" value="0.24592391304347827" />
-        <entry key="..\:/Users/HP/AndroidStudioProjects/Paymu/app/src/main/res/layout/fragment_payment.xml" value="0.2368659420289855" />
+        <entry key="..\:/Users/HP/AndroidStudioProjects/Paymu/app/src/main/res/layout/fragment_home.xml" value="0.1" />
+        <entry key="..\:/Users/HP/AndroidStudioProjects/Paymu/app/src/main/res/layout/fragment_payment.xml" value="0.1" />
         <entry key="..\:/Users/HP/AndroidStudioProjects/Paymu/app/src/main/res/layout/fragment_setting.xml" value="0.2368659420289855" />
+        <entry key="..\:/Users/HP/AndroidStudioProjects/Paymu/app/src/main/res/layout/history_item.xml" value="0.264" />
         <entry key="..\:/Users/HP/AndroidStudioProjects/Paymu/app/src/main/res/layout/hometoolbar.xml" value="0.1" />
         <entry key="..\:/Users/HP/AndroidStudioProjects/Paymu/app/src/main/res/layout/ic_baseline_arrow_back_24.xml" value="0.24592391304347827" />
         <entry key="..\:/Users/HP/AndroidStudioProjects/Paymu/app/src/main/res/layout/layout_tollbar.xml" value="0.24592391304347827" />
         <entry key="..\:/Users/HP/AndroidStudioProjects/Paymu/app/src/main/res/layout/toolbar.xml" value="0.24010416666666667" />
-        <entry key="..\:/Users/HP/AndroidStudioProjects/Paymu/app/src/main/res/menu/bottomnav.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/HP/AndroidStudioProjects/Paymu/app/src/main/res/menu/bottomnav.xml" value="0.10687022900763359" />
         <entry key="..\:/Users/HP/AndroidStudioProjects/Paymu/app/src/main/res/menu/logout.xml" value="0.25416666666666665" />
         <entry key="..\:/Users/HP/AndroidStudioProjects/Paymu/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.14635416666666667" />
       </map>

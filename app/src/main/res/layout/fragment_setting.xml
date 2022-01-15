@@ -1,204 +1,148 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/white"
-    android:orientation="vertical"
-    tools:context="FragmentHome">
+    tools:context=".FragmentSetting">
 
-    <ScrollView
+
+    <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:background="#CCD1E4">
+        android:layout_margin="15dp"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:id="@+id/ProfileLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:clickable="true"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:padding="15dp">
+
+            <TextView
+                android:id="@+id/tvProfile"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:fontFamily="@font/poppins_regular"
+                android:text="Profile"
+                android:textColor="@color/black"
+                android:textSize="20dp" />
+
+            <ImageView
+                android:id="@+id/imageView4"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_weight="0"
+                android:src="@drawable/ic_baseline_account_circle_24" />
+        </LinearLayout>
 
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:orientation="vertical"
-            android:background="#CCD1E4">
+            android:layout_height="wrap_content"
+            android:clickable="true"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:padding="15dp">
 
             <TextView
+                android:id="@+id/textView15"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_margin="20dp"
-                android:text="FRAGMENT SETTING"
+                android:layout_weight="1"
+                android:fontFamily="@font/poppins_regular"
+                android:text="Account Bank"
                 android:textColor="@color/black"
-                android:layout_gravity="center_horizontal"
-                android:textSize="20sp"
-                android:textStyle="bold"/>
+                android:textSize="20sp" />
 
-            <LinearLayout
-                android:layout_gravity="center_horizontal"
-                android:layout_width="380dp"
-                android:layout_height="wrap_content"
-                android:background="#AD98FF">
-
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:drawableTop="@drawable/pay"
-                    android:layout_marginTop="10dp"
-                    android:layout_marginLeft="30dp"
-                    android:layout_marginBottom="10dp"
-                    android:gravity="center"
-                    android:text="Pay"
-                    android:textColor="@color/white"
-                    android:textSize="20sp" />
-
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginTop="10dp"
-                    android:layout_marginLeft="70dp"
-                    android:layout_marginBottom="10dp"
-                    android:gravity="center"
-                    android:drawableTop="@drawable/history"
-                    android:text="History"
-                    android:textColor="@color/white"
-                    android:textSize="20sp" />
-
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginTop="10dp"
-                    android:layout_marginLeft="60dp"
-                    android:layout_marginBottom="10dp"
-                    android:gravity="center"
-                    android:drawableTop="@drawable/akun"
-                    android:text="Account"
-                    android:textColor="@color/white"
-                    android:textSize="20sp" />
-            </LinearLayout>
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginStart="20dp"
-                android:layout_marginTop="30dp"
-                android:text="Your Recommendation"
-                android:textColor="@color/black"
-                android:textSize="20sp"
-                android:textStyle="bold"/>
-            <GridLayout
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:layout_gravity="center_horizontal"
-                android:layout_margin="10dp"
-                android:rowCount="10"
-                android:columnCount="2">
-
-                <ImageView
-                    android:layout_width="00dp"
-                    android:layout_height="100dp"
-                    android:layout_margin="10dp"
-                    android:layout_columnWeight="1"
-                    android:layout_rowWeight="1"
-                    android:src="@drawable/rekomenpaymu"/>
-
-                <ImageView
-                    android:layout_width="00dp"
-                    android:layout_height="100dp"
-                    android:layout_margin="10dp"
-                    android:layout_columnWeight="1"
-                    android:layout_rowWeight="1"
-                    android:src="@drawable/rekomenpaymu"/>>
-                <ImageView
-                    android:layout_width="00dp"
-                    android:layout_height="100dp"
-                    android:layout_margin="10dp"
-                    android:layout_columnWeight="1"
-                    android:layout_rowWeight="1"
-                    android:src="@drawable/rekomenpaymu"/>
-                <ImageView
-                    android:layout_width="00dp"
-                    android:layout_height="100dp"
-                    android:layout_margin="10dp"
-                    android:layout_columnWeight="1"
-                    android:layout_rowWeight="1"
-                    android:src="@drawable/rekomenpaymu"/>
-
-                <ImageView
-                    android:layout_width="00dp"
-                    android:layout_height="100dp"
-                    android:layout_margin="10dp"
-                    android:layout_columnWeight="1"
-                    android:layout_rowWeight="1"
-                    android:src="@drawable/rekomenpaymu"/>
-
-                <ImageView
-                    android:layout_width="00dp"
-                    android:layout_height="100dp"
-                    android:layout_margin="10dp"
-                    android:layout_columnWeight="1"
-                    android:layout_rowWeight="1"
-                    android:src="@drawable/rekomenpaymu"/>
-
-                <ImageView
-                    android:layout_width="00dp"
-                    android:layout_height="100dp"
-                    android:layout_margin="10dp"
-                    android:layout_columnWeight="1"
-                    android:layout_rowWeight="1"
-                    android:src="@drawable/rekomenpaymu"/>
-
-                <ImageView
-                    android:layout_width="00dp"
-                    android:layout_height="100dp"
-                    android:layout_margin="10dp"
-                    android:layout_columnWeight="1"
-                    android:layout_rowWeight="1"
-                    android:src="@drawable/rekomenpaymu"/>
-
-                <ImageView
-                    android:layout_width="00dp"
-                    android:layout_height="100dp"
-                    android:layout_margin="10dp"
-                    android:layout_columnWeight="1"
-                    android:layout_rowWeight="1"
-                    android:src="@drawable/rekomenpaymu"/>
-
-                <ImageView
-                    android:layout_width="00dp"
-                    android:layout_height="100dp"
-                    android:layout_margin="10dp"
-                    android:layout_columnWeight="1"
-                    android:layout_rowWeight="1"
-                    android:src="@drawable/rekomenpaymu"/>
-
-                <ImageView
-                    android:layout_width="00dp"
-                    android:layout_height="100dp"
-                    android:layout_margin="10dp"
-                    android:layout_columnWeight="1"
-                    android:layout_rowWeight="1"
-                    android:src="@drawable/rekomenpaymu"/>
-
-                <ImageView
-                    android:layout_width="00dp"
-                    android:layout_height="100dp"
-                    android:layout_margin="10dp"
-                    android:layout_columnWeight="1"
-                    android:layout_rowWeight="1"
-                    android:src="@drawable/rekomenpaymu"/>
-
-                <ImageView
-                    android:layout_width="00dp"
-                    android:layout_height="100dp"
-                    android:layout_margin="10dp"
-                    android:layout_columnWeight="1"
-                    android:layout_rowWeight="1"
-                    android:src="@drawable/rekomenpaymu"/>
-
-                <ImageView
-                    android:layout_width="00dp"
-                    android:layout_height="100dp"
-                    android:layout_margin="10dp"
-                    android:layout_columnWeight="1"
-                    android:layout_rowWeight="1"
-                    android:src="@drawable/rekomenpaymu"/>
-
-            </GridLayout>
+            <ImageView
+                android:id="@+id/imageView5"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_weight="0"
+                android:src="@drawable/ic_baseline_account_balance_wallet_24" />
         </LinearLayout>
-    </ScrollView>
-</LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:clickable="true"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:padding="15dp">
+
+            <TextView
+                android:id="@+id/textView16"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:fontFamily="@font/poppins_regular"
+                android:text="Credit Card"
+                android:textColor="@color/black"
+                android:textSize="20sp" />
+
+            <ImageView
+                android:id="@+id/imageView6"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_weight="0"
+                android:src="@drawable/ic_baseline_credit_card_24" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:clickable="true"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:padding="15dp">
+
+            <TextView
+                android:id="@+id/textView17"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:fontFamily="@font/poppins_regular"
+                android:text="Password"
+                android:textColor="@color/black"
+                android:textSize="20sp" />
+
+            <ImageView
+                android:id="@+id/imageView7"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_weight="0"
+                android:src="@drawable/ic_baseline_vpn_key_24" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:clickable="true"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:padding="15dp">
+
+            <TextView
+                android:id="@+id/textView18"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:fontFamily="@font/poppins_regular"
+                android:text="Help"
+                android:textColor="@color/black"
+                android:textSize="20sp" />
+
+            <ImageView
+                android:id="@+id/imageView8"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_weight="0"
+                android:src="@drawable/ic_baseline_help_outline_24" />
+        </LinearLayout>
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
