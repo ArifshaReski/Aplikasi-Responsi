@@ -12,6 +12,7 @@ public class PaymentActivity extends AppCompatActivity {
 
     TextView title;
     ImageView back;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
